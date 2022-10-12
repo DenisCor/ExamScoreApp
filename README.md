@@ -1,3 +1,19 @@
+
+# ExamApp
+An Exam App that will create student reports
+
+
+Exam App was built with Material UI library, making it responsive using their Grid system, created a theme which reflects on buttons colours and shapes. For state management I used Redux Toolkit and Redux Persist in cases where user closes the tab or the browser, the state is safely saved into local storage for future use. For translations I used "i18n" package which will switch on flag icon click.  App is split into 3 sections:
+1. Create Record Component:
+The "Student Name" input field - here we restrict user to insert numbers and special characters using Regex, it will display an error if user is attempting to do so. Same goes for "Score" field, it will complain if user tries to insert a letter OR if number is greater than 100. Class Radio button also shouldn't be empty and it will throw an error if user tries creating a record without it. So All 3 inputs are mandatory.
+2. Filter Component:
+Here I'm pulling the records array from redux and using ES6 array methods to filter whatever user selected, giving also the option to reset it if necessary
+3. List Component:
+Here I'm displaying the data with the option to delete a single record or all of them at once by displaying a modal to make sure the selection isnt accidental.
+
+
+//==============================================================================================================================================================
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
