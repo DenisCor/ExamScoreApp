@@ -1,0 +1,33 @@
+{
+  "createRecord": {
+    "studentName":"Student Name",
+    "score":"Score",
+    "class":"Class:",
+    "createRecordBtn":"Create Record"
+  },
+  "filter": {
+    "filterBtn":"Filter",
+    "resetFilterBtn":"Reset Filter",
+    "sortBy":"Sort By",
+    "default":"Default",
+    "byName":"Name: Alphabetical",
+    "byScore":"Score: High to Low"
+  },
+  "list":{
+    "delete":"Delete",
+    "deleteAll":"Delete All",
+    "areYouSure":"Are you sure you want to delete all records?",
+    "yes":"Yes",
+    "no": "No"
+  },
+  "errors":{
+    "noName":"Empty field - Please insert a name.",
+    "noNumber":"Empty field - Please insert a number.",
+    "noClass":"Please select a class.",
+    "mustHaveLetters": "Name must contain ONLY letters.",
+    "mustBeANumber":"Score must be a number.",
+    "mustBeGreater":"Score shouldn't be greater than 100."
+  },
+  "toast":{
+    "success":"Record successfully created!"
+  }}

@@ -1,0 +1,34 @@
+{
+  "createRecord": {
+    "studentName":"Name des Studenten",
+    "score":"Punktzahl",
+    "class":"Klasse:",
+    "createRecordBtn":"Datensatz erstellen"
+  },
+  "filter": {
+    "filterBtn":"Filter",
+    "resetFilterBtn":"Zurücksetzen",
+    "sortBy":"Sortieren nach",
+    "default":"Standard",
+    "byName":"Name: Alphabetisch",
+    "byScore":"Punktzahl: Hoch bis Niedrig"
+  },
+  "list":{
+    "delete":"Löschen",
+    "deleteAll":"Alles löschen",
+    "areYouSure":"Möchten Sie wirklich alle Datensätze löschen?",
+    "yes":"Ja",
+    "no": "Nein"
+  },
+  "errors":{
+    "noName":"Leeres Feld - Bitte geben Sie einen Namen ein.",
+    "noNumber":"Leeres Feld - Bitte geben Sie eine Zahl ein.",
+    "noClass":"Bitte wählen Sie eine Klasse aus.",
+    "mustHaveLetters": "Der Name darf NUR Buchstaben enthalten.",
+    "mustBeANumber":"Punktzahl muss eine Zahl sein.",
+    "mustBeGreater":"Die Punktzahl sollte nicht größer als 100 sein."
+  },
+  "toast":{
+    "success":"Datensatz erfolgreich erstellt!"
+  }
+}

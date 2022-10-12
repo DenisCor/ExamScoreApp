@@ -1,0 +1,33 @@
+{
+  "createRecord": {
+    "studentName":"Nom d'étudiant",
+    "score":"Score",
+    "class":"Classer:",
+    "createRecordBtn":"Enregistrement"
+  },
+  "filter": {
+    "filterBtn":"Filtre",
+    "resetFilterBtn":"Réinitialiser",
+    "sortBy":"Trier par",
+    "default":"Défaut",
+    "byName":"Nom : Alphabétique",
+    "byScore":"Note : élevée à faible"
+  },
+  "list":{
+    "delete":"Effacer",
+    "deleteAll":"Supprimer tout",
+    "areYouSure":"Voulez-vous vraiment supprimer tous les enregistrements ?",
+    "yes":"Oui",
+    "no": "Non"
+  },
+  "errors":{
+    "noName":"Champ vide - Veuillez insérer un nom.",
+    "noNumber":"Champ vide - Veuillez insérer un nombre.",
+    "noClass":"Veuillez sélectionner une classe.",
+    "mustHaveLetters": "Le nom doit contenir UNIQUEMENT des lettres.",
+    "mustBeANumber":"Le score doit être un nombre.",
+    "mustBeGreater":"Le score ne doit pas être supérieur à 100."
+  },
+  "toast":{
+    "success":"Enregistrement créé avec succès!"
+  }}
