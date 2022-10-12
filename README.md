@@ -1,7 +1,8 @@
 
 # ExamApp
-An Exam App that will create student reports
+An ExamScore App that will create student reports
 
+Project Link - https://examscoreapp.netlify.app/
 
 Exam App was built with Material UI library, making it responsive using their Grid system, created a theme which reflects on buttons colours and shapes. For state management I used Redux Toolkit and Redux Persist in cases where user closes the tab or the browser, the state is safely saved into local storage for future use. For translations I used "i18n" package which will switch on flag icon click.  App is split into 3 sections:
 1. Create Record Component:
